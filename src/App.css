@@ -1,0 +1,129 @@
+.Header-color {
+  background: #43c6ac; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #191654,
+    #43c6ac
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #191654,
+    #43c6ac
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Landing-Grid {
+  background: #43c6ac; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #191654,
+    #43c6ac
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #191654,
+    #43c6ac
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+.banner-text {
+  background-color: gray;
+  opacity: 0.6;
+  width: 75%;
+  border-radius: 10px;
+  margin: auto;
+}
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+.banner-text p {
+  font-size: 20px;
+  color: white;
+  padding: 1em;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+.Projects {
+  display: flex;
+}
+.contact-body {
+  margin: auto;
+  background: grey;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.contact-grid {
+  display: flex;
+  background: white;
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  color: black;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
+}
+.contact-grid p {
+  font-family: "oxygen", sans-serif;
+  font-weight: bold;
+}
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+.contact-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DevPro-mod {
+  text-decoration: none;
+  color: white;
+}
+.resume-right-col {
+  border: solid;
+  background: #27221f;
+  color: white;
+  padding: 2em;
+}
+
+.resume-left-col {
+}
