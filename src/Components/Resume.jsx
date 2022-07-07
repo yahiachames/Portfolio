@@ -17,14 +17,17 @@ class AboutUs extends Component {
                 style={{ height: "200px" }}
               />
             </div>
-            <h2 style={{ paddingTop: "2em" }}> Chames Yahia </h2>
-            <h4 style={{ color: "grey" }}> Developer </h4>
+            <h2 style={{ paddingTop: "2em" }}> Chameseddine Yahia </h2>
+            <h4 style={{ color: "grey" }}> Research and development engineer </h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              On sait depuis longtemps que travailler avec du texte lisible et
-              contenant du sens est source de distractions, et empêche de se
-              concentrer sur la mise en page elle-même. L'avantage du Lorem
-              Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.'{" "}
+              My name is chames yahia, i'm 22 years old, i have a bachelor degree from the
+higher institute of technology and communication, i'm obsessed with new
+technologies and AI (artificial intelligence), during my studies i was a team
+leader in the iset microsoft 'com club, and web/mobile instructor for 2 years
+and now i'm a machine learning engineer for 1 year, i like to lead and i like to
+make people succeed, i've got a competitive personality, hard working and a
+real creativity mixed with mathematical logic{" "}
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
@@ -38,41 +41,78 @@ class AboutUs extends Component {
           <Cell className='resume-right-col' col={8}>
             <h2>Education</h2>
             <Education
-              startYear={2019}
-              endYear={2021}
-              schoolName='My First University'
-              schoolDescription="Contrairement à une opinion répandue, 
-                le Lorem Ipsum n'est pas simplement du texte aléatoire. 
-                Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans."
+              startYear={2017}
+              endYear={2018}
+              schoolName='BACCALAUREATE MATHEMATICS'
+              schoolDescription="Les Berges du Lac High School"
             />
 
             <Education
-              startYear={2021}
-              endYear={2023}
-              schoolName='My Second University'
-              schoolDescription="Contrairement à une opinion répandue, 
-                le Lorem Ipsum n'est pas simplement du texte aléatoire. 
-                Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans."
+              startYear={2018}
+              endYear={2021}
+              schoolName='higher institute of information and communication technologies'
+              schoolDescription="MANAGEMENT OF INFORMATION AND COMMUNICATION
+TECHNOLOGIES
+- final year of graduation: 2021
+COURSES
+Management/ web/ mobile développement / Marketing / Business
+Intelligence/ data science / big data"
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Experience</h2>
             <Experience
-              jobName='Full Stack MERN junior Dev'
-              jobDescription="Contrairement à une opinion répandue, 
-                le Lorem Ipsum n'est pas simplement du texte aléatoire. 
-                Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans."
-              startYear={2018}
+              jobName='internship developer react and GraphQL 1 month'
+              jobDescription="- create GraphQl Apis
+- integrate GraphQL with react
+- replace redux with GraphQL using Apollo"
+              startYear={2019}
               endYear={2019}
             />
+             <Experience
+              jobName='part-time web instructor'
+              jobDescription="GoMyCode -
+              JANUARY 2019 - (2 YEARS)
+              instruct students to learn web development ( html/css/js)
+instruct students to learn Front-End web development ReactJS
+instruct Students to learn Back-End with NodeJS"
+              startYear={2019}
+              endYear={2021}
+            />
+                         <Experience
+              jobName='internship Ai developer 4 months'
+              jobDescription="HANDWRITTEN APPLICATION(PYTHON,DJANGO,DEEPLEARNING,
+LINUX , DOCKER , TESSERACT-OCR , OPENCV)"
+              startYear={2021}
+              endYear={2021}
+            />
+                                     <Experience
+              jobName='Research and development engineer'
+              jobDescription="TENSORFLOW, KERAS, PYTORCH , NLP , CNN , RNN , PYTHON , DJANGO"
+              startYear={2021}
+              endYear={2022}
+            />
+
 
             <h2>Skills</h2>
-            <Skills skill='JavaScript' progress={45} />
+                        <Skills skill='python' progress={70} />
+                          <Skills skill='django' progress={70} />
+                                                    <Skills skill='docker' progress={80} />
+                                                     <Skills skill='tensorflow' progress={60} />
+                                                      <Skills skill='opencv' progress={60} />
+
+
+
+            <Skills skill='JavaScript' progress={80} />
             <Skills skill='HTML' progress={80} />
             <Skills skill='CSS' progress={65} />
             <Skills skill='ReactJs' progress={85} />
+             <Skills skill='ReactNative' progress={85} />
             <Skills skill='NodeJs' progress={65} />
             <Skills skill='ExpressJs' progress={65} />
             <Skills skill='MongoDB' progress={85} />
+             <Skills skill='Arabic' progress={100} />
+              <Skills skill='French' progress={85} />
+               <Skills skill='English' progress={85} />
           </Cell>
         </Grid>
       </div>

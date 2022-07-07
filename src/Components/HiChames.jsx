@@ -12,17 +12,18 @@ class HiChames extends Component {
               className='avatar-img'
             />
             <div className='banner-text'>
-              <h1>Full Stack Mern Junior Dev</h1>
+              <h1>Research and Development Engineer</h1>
               <hr />
-              <p>Html/CSS && JavaScript && React JS </p>
+              <p>Web && Mobile && Artificial intelligence </p>
               <div className='social-links'>
                 {/* freeCodeCamp*/}
                 <a
-                  href='https://www.freecodecamp.org/chames'
+                  href='https://www.linkedin.com/in/chames-yahia-822647196/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <i className='fa fa-free-code-camp' aria-hidden='true' />
+                  <i class="fa fa-linkedin-square" ></i>
+                  {/* <i className='fa fa-free-code-camp' aria-hidden='true' /> */}
                 </a>
                 {/* CodeWars*/}
                 <a

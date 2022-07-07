@@ -16,7 +16,26 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeTab: 0
+      activeTab: 0,
+      data : [
+        {
+          backgroundImage : "https://cdn-images-1.medium.com/max/1200/1*jDIj2SKAE-Bp32owLoHDjw.png",
+          title : "Mobile charity app",
+          description : "this app helps creating a community that serve the poor prople , you can take a photo and locate a poor zone and other people will come help",
+          uri : "https://github.com/yahiachames/aawen"
+        } , 
+        {
+                   backgroundImage : "https://cdn-images-1.medium.com/max/1200/1*jDIj2SKAE-Bp32owLoHDjw.png",
+          title : "Web E-learning application",
+          description : "this app connect students with teachers to evaluate their performance ",
+          uri : "https://github.com/yahiachames/Elearning"
+        }, {
+           backgroundImage : "https://imageio.forbes.com/specials-images/dam/imageserve/1096227330/0x0.jpg?format=jpg&width=1200",
+          title : "Intelligent character recognition",
+          description : "This algorithm segments the characters and recognizes them independently of the handwriting with an accuracy of 55%.",
+          uri : "https://github.com/yahiachames/Elearning"
+        }
+      ]
     };
   }
 
@@ -25,62 +44,38 @@ class Home extends Component {
       return (
         <div className='Projects'>
           {/*project1*/}
+         { this.state.data.map(el => (
           <Card shadow={5} style={{ minWidth: "450px", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://cdn-images-1.medium.com/max/1200/1*jDIj2SKAE-Bp32owLoHDjw.png) center / cover"
+                `url(${el.backgroundImage}) center / cover`
+                 
               }}
             >
-              Project React #1
+             {el.title}
             </CardTitle>
             <CardText>
-              The purpose of a paragraph is to express a speaker’s thoughts on a
-              particular point in a clear way that is unique and specific to
-              that paragraph. In other words,
+              {el.description}
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored onClick={(e) => {
+                  e.preventDefault();
+      window.location.href=el.uri;
+              }} >GitHub</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
-              {" "}
-              <a href='https://github.com/yahiachames/ecommerce'>
-                {" "}
-                <IconButton name='share'> </IconButton>{" "}
-              </a>{" "}
+     
+        
+              
             </CardMenu>
           </Card>
+         )) }
 
           {/*project2*/}
-          <Card shadow={5} style={{ minWidth: "450px", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://cdn-images-1.medium.com/max/1200/1*jDIj2SKAE-Bp32owLoHDjw.png) center / cover"
-              }}
-            >
-              Project React #2
-            </CardTitle>
-            <CardText>
-              The purpose of a paragraph is to express a speaker’s thoughts on a
-              particular point in a clear way that is unique and specific to
-              that paragraph. In other words,
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              {" "}
-              <a href='https://github.com/yahiachames/Elearning'>
-                {" "}
-                <IconButton name='share'> </IconButton>{" "}
-              </a>
-            </CardMenu>
-          </Card>
+     
         </div>
       );
     }
@@ -94,7 +89,7 @@ class Home extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>React</Tab>
+          <Tab>All</Tab>
         </Tabs>
         <section>
           <Grid>

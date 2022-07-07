@@ -14,11 +14,7 @@ class Contactus extends Component {
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Le Lorem Ipsum est simplement du faux texte employé dans la
-              composition et la mise en page avant impression. Le Lorem Ipsum
-              est le faux texte standard de l'imprimerie depuis les années 1500,
-              quand un imprimeur anonyme assembla ensemble des morceaux de texte
-              pour réaliser un livre spécimen de polices de texte.{" "}
+             My name is chameseddine yahia, i'm 22 years old, nice to meet you! {" "}
             </p>
           </Cell>
           <Cell col={6}>
@@ -57,8 +53,8 @@ class Contactus extends Component {
                       fontFamily: "Anton"
                     }}
                   >
-                    <i className="fa fa-facebook-square" aria-hidden="true" />
-                    Chames.yahia14
+                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                    linkedin.com/in/chames-yahia-822647196
                   </ListItemContent>
                 </ListItem>
               </List>
